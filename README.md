@@ -1,4 +1,4 @@
-This repo shows how to use the integration with OBADA Node over gRPC and with usign generated protobuf files with `buf`.
+This repo shows how to use the integration with OBADA Node over gRPC and with usign generated protobuf files with `buf`. The technical details about how proto files are generated hidden in [Makefile](https://github.com/obada-foundation/nodewithgrpc/blob/main/Makefile#L24-L30).
 
 ## Installation
 ```sh
