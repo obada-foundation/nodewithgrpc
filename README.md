@@ -23,3 +23,11 @@ make run
   gasWanted: 200000
 }
 ```
+
+You can also run this script agaist custom node or with custom wallet:
+
+```sh
+NODE="34.45.4.1" make run
+MNEMONIC="your mnemonic words should be there" make run
+NODE="34.45.4.1" MNEMONIC="your mnemonic words should be there" make run
+```
