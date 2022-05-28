@@ -1,0 +1,25 @@
+{
+  "name": "nodewithgrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc ./generated/obit/tx.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obada-foundation/nodewithgrpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obada-foundation/nodewithgrpc/issues"
+  },
+  "homepage": "https://github.com/obada-foundation/nodewithgrpc#readme",
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.28.4",
+    "@cosmjs/stargate": "^0.28.4",
+    "typescript": "^4.7.2"
+  }
+}

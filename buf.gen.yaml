@@ -1,0 +1,6 @@
+version: v1
+plugins:
+  - remote: buf.build/obada/plugins/ts-proto
+    out: generated
+    opt: 
+      - env=node
