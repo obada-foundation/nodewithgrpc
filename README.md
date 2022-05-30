@@ -8,8 +8,7 @@ This repo shows how to use the integration with OBADA Node over gRPC and with us
 This command will install node dependencies and generate code from proto files located on `buf.build/obada/fullcore` as result `generated` folder should appear in your project.
 
 ## Testing
-
-With generated files you can test a little script that minting an OBIT
+Before testing please make sure that your wallet is populated with OBD tokens, you can obtain them at [faucet](https://faucet.obada.io/) application. With generated files you can test a little script that minting an OBIT.
 
 ```sh
 make run
